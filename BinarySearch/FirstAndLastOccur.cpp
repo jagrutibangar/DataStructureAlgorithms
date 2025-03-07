@@ -63,6 +63,6 @@ int main(){
     int n = a.size();
     int t = 5;
     pair<int, int> p = FirstAndLastOccur(a,n,t);
-    cout << p;
+    cout << "{ " << p.first << "," << p.second <<" }" << endl;
     return 0;
 }
